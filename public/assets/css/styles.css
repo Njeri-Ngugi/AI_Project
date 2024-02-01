@@ -1,0 +1,135 @@
+/* Body styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f8f9fa;
+    /* Light gray background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+    /* Dark gray navbar background color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    border-color: #fff;
+    /* White color for the toggler icon */
+}
+
+.nav-link {
+    color: #fff !important;
+    /* White color for the navbar links */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+}
+
+/* Hero Section styles */
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+/* Toggle Buttons styles */
+.toggle-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-lakes {
+    background-color: #28a745;
+    /* Green color for the buttons */
+    color: #fff;
+    border: none;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-lakes:hover {
+    background-color: #218838;
+    /* Darker green color on hover */
+}
+
+/* Search Bar styles */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+/* Sort Section styles */
+.sort-section {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Table styles */
+.table {
+    background-color: #fff;
+}
+
+/* About Section styles */
+#about {
+    margin-top: 50px;
+    display: block;
+}
+
+.download-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Bootstrap download icon styles */
+.download-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Team Section styles */
+#team {
+    margin-top: 50px;
+}
+
+/* Feedback Form Section styles */
+#feedback {
+    margin-top: 50px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+#moderate-lake-row, #severe-lake-row, #mild-lake-row {
+    display: none;
+}
+/* ... (Add any other styles as needed) ... */

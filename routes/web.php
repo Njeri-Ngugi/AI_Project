@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('lakes');
 });
 
 Route::middleware([
@@ -31,3 +31,6 @@ Route::middleware([
 Route::get('/mild_lakes', [Mild_Lakes_Controller::class, 'get_mild_lake']);
 Route::get('/moderate_lakes', [Mild_Lakes_Controller::class, 'get_moderate_lake']);
 Route::get('/severe_lakes', [Mild_Lakes_Controller::class, 'get_severe_lake']);
+
+Route::get('/lake_2015/{filename}', [Mild_Lakes_Controller::class, 'compare_2015_path'])->name('lake.image');
+Route::get('/lake_2016/{filename}', [Mild_Lakes_Controller::class, 'compare_2016_path'])->name('lake2016.image');
